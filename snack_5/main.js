@@ -14,7 +14,7 @@ console.log(secondArray);
 
 function compilatore(array, firstNumber, secondNumber) {
 
-    let secondArray = array.filter((numero,index) => {
+    let secondArray = array.filter((index) => {
         if(index > firstNumber && index < secondNumber){
             return true;
         }
